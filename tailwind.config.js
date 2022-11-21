@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        youtube: '#FF2500'
+        youtube: '#5865F2'
       },
       fontSize: {
         xxs: ".5rem"
