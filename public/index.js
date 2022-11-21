@@ -1,10 +1,10 @@
 const videos = [
   {
-    thumbnailImage: "https://raw.githubusercontent.com/PlayCalmly/watchCalm/main/thumbs/1280%20x%20720.png",
-    title: "Video Template",
-    videoDuration: "0:00",
+    thumbnailImage: "https://raw.githubusercontent.com/PlayCalmly/watchCalm/main/thumbs/vid616nov20.png",
+    title: "Tutorial Theme - Dino May Die OST",
+    videoDuration: "3:39",
     views: 1,
-    monthsAgo: 1,
+    monthsAgo: 0,
     link: "./vid/id/0000001"
   },
 {
