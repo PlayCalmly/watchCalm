@@ -3,8 +3,9 @@ const videos = [
     thumbnailImage: "https://raw.githubusercontent.com/PlayCalmly/watchCalm/main/thumbs/1280%20x%20720.png",
     title: "Video Template",
     videoDuration: "0:00",
-    views: 10,
-    monthsAgo: 1
+    views: 1,
+    monthsAgo: 1,
+    link: "./vid/id/0000001"
   },
 {
     thumbnailImage: "https://raw.githubusercontent.com/PlayCalmly/watchCalm/main/thumbs/1280%20x%20720.png",
@@ -104,8 +105,8 @@ videos.forEach(video => {
   `
   <div class="flex flex-col w-72">
         <div class="video-thumbnail w-full h-44 relative">
-          <img class="w-full h-full object-cover cursor-pointer"
-            src="${video.thumbnailImage}" alt="video">
+          <a href="${video.link}"><img class="w-full h-full object-cover cursor-pointer"
+            src="${video.thumbnailImage}" alt="video"></a>
           <span class="text-white bg-black p-1 bottom-1 right-1 absolute text-xs">${video.videoDuration}</span>
         </div>
         <div class="mt-2 flex justify-between items-center">
@@ -113,8 +114,7 @@ videos.forEach(video => {
           </h3>
         </div>
         <div class="text-sm text-gray-600 mt-2 ml-12">
-          <a class="text-gray-500 hover:text-gray-900" href="#">Template Channel</a>
-          <p class="text-gray-900">${video.views}k Views . ${video.monthsAgo} Months Ago</p>
+          <p class="text-gray-900">~ ${video.views}k Views . ${video.monthsAgo} Months Ago</p>
         </div>
       </div>
   `
