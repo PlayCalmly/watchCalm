@@ -84,13 +84,6 @@ const videos = [
     views: 10,
     monthsAgo: 1
   },
-  {
-    thumbnailImage: "https://raw.githubusercontent.com/PlayCalmly/watchCalm/main/thumbs/1280%20x%20720.png",
-    title: "Video Template",
-    videoDuration: "0:00",
-    views: 10,
-    monthsAgo: 1
-  },
 ]
 
 
